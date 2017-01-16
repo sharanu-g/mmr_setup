@@ -63,6 +63,8 @@ else
 	fi
 	sudo chmod +x PNP_RPi3_AP/install.sh
 	sudo chmod +x PNP_RPi3_AP/ap.sh
+	sudo cp PNP_RPi3_AP/install.sh install.sh
+	sudo ./install.sh
 fi
 
 #Editing a netwok-pre.conf file for reducing booting time upto 50%
